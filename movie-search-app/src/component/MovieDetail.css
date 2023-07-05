@@ -1,0 +1,78 @@
+.card-body {
+    color: white;
+    font-size: 18px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.img-con{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.progres {
+    display: flex;
+    width: 200px;
+    background: #fff ;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.progress-text{
+    background-color: #5bc0de;
+    color: black;
+    text-align: center;
+}
+
+.movie-details-container {
+    width: 80%;
+}
+
+.movie-details {
+    display: flex;
+    gap: 50px;
+}
+
+.movie-votes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 5px;
+    font-size: 24px;
+}
+
+.web-btn {
+  background-color: #fab907;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+}
+
+.web-btn:hover,
+.web-btn:focus {
+  opacity: .75;
+}

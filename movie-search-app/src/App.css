@@ -1,0 +1,125 @@
+body {
+    background-image: linear-gradient(to right, #3f71b1, rgb(127, 39, 185));
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 17px;
+    transition: all 1s ease;
+    font-weight: bold;
+    outline: 0;
+}
+
+.text-input:focus {
+    border-bottom: 2px solid red;
+}
+
+.search-title {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Lucida Calligraphy';
+    font-weight: 200px
+}
+
+.search-body {
+    height: 200px;
+    width: 500px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.search-subbody {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.srch-btn {
+    align-items: center;
+    appearance: none;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd,sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+  
+  .srch-btn:active,
+  .srch-btn:focus {
+    outline: none;
+  }
+  
+  .srch-btn:hover {
+    background-position: -20px -20px;
+  }
+  
+  .srch-btn:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  }
+
+  .error-block {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+  }
+
+  .erro-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+  }
+
+  .error-message {
+    padding: 0 30px;
+    font-size: 24px;
+  }
+
+.movies-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:35px;
+}
